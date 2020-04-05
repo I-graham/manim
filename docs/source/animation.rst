@@ -9,7 +9,7 @@ without any animation::
   class NoAnimation(Scene):
       def construct(self):
           square = Square()
-          self.add(square))
+          self.add(square)
 
 Animation are used in conjunction with ``scene.Play``
 
